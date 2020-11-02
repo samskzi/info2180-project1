@@ -2,7 +2,7 @@
 var sub = function(){
     var email = document.getElementById("email");
     document.getElementsByClassName("btn")[1].addEventListener("click", function(x){
-        var e = email.nodeValue;
+        var e = email.value;
         if(e == ""){
             document.getElementsByClassName("message")[0].innerHTML = "Please enter a valid email address.";
 
